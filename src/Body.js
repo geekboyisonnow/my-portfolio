@@ -1,11 +1,11 @@
-// import logo from './logo.svg'
-import './styles.css'
 import './App.css'
+// import '.css/styles.css'
 
-function App() {
+function Body() {
   return (
-    <div className='App' id='root'>
+    <div className='App'>
       <body id='page-top'>
+        {/* <div id='root'></div> */}
         <nav
           class='navbar navbar-expand-lg navbar-dark bg-primary fixed-top'
           id='sideNav'>
@@ -13,12 +13,12 @@ function App() {
             class='navbar-brand js-scroll-trigger'
             href='#page-top'>
             <span class='d-block d-lg-none'>
-              Made w/ Bootstrap & Create-React-App
+              Kenny Cannon
             </span>
             <span class='d-none d-lg-block'>
               <img
                 class='img-fluid img-profile rounded-circle mx-auto mb-2'
-                src='/LizMe-2.jpg'
+                src='src/img/LizMe.jpg'
                 alt='Kenny Cannon'
               />
             </span>
@@ -394,33 +394,33 @@ function App() {
                 <li class='list-inline-item'>
                   <i class='fab fa-css3-alt'></i>
                 </li>
-                {/* <li class='list-inline-item'>
+                <li class='list-inline-item'>
                   <i class='fab fa-js-square'></i>
                 </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-angular'></i>
-                </li> */}
+                </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-react'></i>
                 </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-node-js'></i>
                 </li>
-                {/* <li class='list-inline-item'>
+                <li class='list-inline-item'>
                   <i class='fab fa-sass'></i>
                 </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-less'></i>
-                </li> */}
+                </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-wordpress'></i>
                 </li>
-                {/* <li class='list-inline-item'>
+                <li class='list-inline-item'>
                   <i class='fab fa-gulp'></i>
                 </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-grunt'></i>
-                </li> */}
+                </li>
                 <li class='list-inline-item'>
                   <i class='fab fa-npm'></i>
                 </li>
@@ -541,9 +541,22 @@ function App() {
             </div>
           </section>
         </div>
+        {/*
+  <!-- Bootstrap core JS-->
+  */}
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+        <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js'></script>
+        {/*
+  <!-- Third party plugin JS-->
+  */}
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js'></script>
+        {/*
+  <!-- Core theme JS-->
+  */}
+        <script src='scripts.js'></script>
       </body>
     </div>
   )
 }
 
-export default App
+export default Body
