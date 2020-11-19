@@ -6,6 +6,7 @@ function App() {
   return (
     <div className='App' id='root'>
       <body id='page-top'>
+        {/* Preparing to use React-Router */}
         <nav
           class='navbar navbar-expand-lg navbar-dark bg-primary fixed-top'
           id='sideNav'>
